@@ -1,0 +1,17 @@
+
+[socket]
+tagreaderhost = 0.0.0.0
+tagreaderport = 8081
+
+
+
+[path]
+video_save_path = /usr/src/ultralytics/tests/gitpl_main/
+model_directory= /usr/src/ultralytics/tests/gitpl_main/best.pt
+model_directory_H=/usr/src/ultralytics/tests/gitpl_main/best_50.pt
+
+[parameter]
+fps=30
+conf=0.97
+gap_duration=60
+recording_duration=60
